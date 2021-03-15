@@ -252,3 +252,99 @@ main {
     color: var(--warm-black);
     font-weight: 300;
 }
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url('../assets/icons/batata.svg');
+    top: calc(0% - 1.25rem);
+    right: calc(50% - 2rem);
+}
+
+.product-detail--title {
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.product-detail--title h2 {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: var(--off-white);
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.product-detail--title p {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: var(--black);
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .clock, .eye , .dollar, .check {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock {
+    background-image: url('../assets/icons/clock.svg');
+}
+
+.eye {
+    background: url('../assets/icons/eye.svg');
+}
+
+.dollar {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+
+.check {
+    background-image: url('../assets/icons/check-circle.svg');
+}
+
+.product--card-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
